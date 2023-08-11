@@ -5,12 +5,70 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Praktikum 22 Table</title>
 </head>
+
 <body>
+    <style>
+        table,th,td{
+        border:1px solid black;
+      }
+    </style>
     <table>
+        <thead>
         <tr>
             <th>Nama</th>
             <th>Umur</th>
             <th>Kota</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John</td>
+            <td>25</td>
+            <td>New york</td>
+        </tr>
+        <tr>
+            <td>Kokoh</td>
+            <td>1000</td>
+            <td>Jawa</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Total</td>
+        </tr>
+    </tfoot>
+    </table>
+    <br>
+     <table>
+        <tr>
+            <th>Nama</th>
+            <th colspan="2">Alamat</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td colspan="2">123 Jalan ABCs</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>Nama</th>
+            <th>Produk</th>
+            <th>Jumlah</th>
+        </tr>
+        <tr>
+            <td rowspan="2">John</td>
+            <td>Apel</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Pisang</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>Jeruk</td>
+            <td>2</td>
         </tr>
     </table>
 </body>
